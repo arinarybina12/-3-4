@@ -1,0 +1,56 @@
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+}
+
+li{
+    float: left;
+    width: auto;
+}
+
+a{
+    background: aquamarine;
+    color: rgb(13, 92, 182);
+    display: block;
+    font: bold 13 px sans-serif;
+    padding: 18px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li:hover a{
+    background-color: chartreuse;
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    margin: 15px;
+    background-color: lavender;
+    border-radius: 40px 0 40px 0;
+    border: 1px solid palevioletred;
+    left: 10px;
+    top: 50px;
+}
+
+img:hover{
+    box-shadow: 3px 3px 15px rosybrown; 
+}
+
+body{
+    background-color: rgb(105, 105, 183);
+}
+.textStyle{
+    color: blueviolet;
+    font-size: 50px;
+}
+
+#unicyextStyle{
+    color: bisque(66, 0, 173);
+    font-size: rgb(187, 255, 0);
+}
